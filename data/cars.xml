@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carlist>
+	<car>
+		<category></category>
+		<availability></availability>
+		<brand></brand>
+		<model></model>
+		<modelyear></modelyear>
+		<mileage></mileage>
+		<fueltype></fueltype>
+		<seats></seats>
+		<priceperday></priceperday>
+		<description></description>
+	</car>
+</carlist>
