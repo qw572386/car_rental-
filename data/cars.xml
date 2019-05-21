@@ -1,15 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <carlist>
 	<car>
-		<category></category>
-		<availability></availability>
-		<brand></brand>
-		<model></model>
-		<modelyear></modelyear>
-		<mileage></mileage>
-		<fueltype></fueltype>
-		<seats></seats>
-		<priceperday></priceperday>
-		<description></description>
+		<category>sedan</category>
+		<availability>True</availability>
+		<brand>Toyota</brand>
+		<model>Camry</model>
+		<modelyear>2013</modelyear>
+		<mileage>85364</mileage>
+		<fueltype>petrol</fueltype>
+		<seats>5</seats>
+		<priceperday>120</priceperday>
+		<description>The Toyota Camry is an automobile sold internationally by the Japanese manufacturer Toyota since 1982, spanning multiple generations.</description>
+	</car>
+	<car>
+		<category>SUV</category>
+		<availability>True</availability>
+		<brand>Nissan</brand>
+		<model>X-trail</model>
+		<modelyear>2015</modelyear>
+		<mileage>36782</mileage>
+		<fueltype>Petrol</fueltype>
+		<seats>7</seats>
+		<priceperday>360</priceperday>
+		<description>The Nissan X-Trail is a compact crossover SUV produced by the Japanese automaker Nissan since 2000. In third generation, it is a 3-row (which means 7-seater) SUV.</description>
+	</car>
+	<car>
+		<category>sedan</category>
+		<availability>False</availability>
+		<brand>Volkswagen</brand>
+		<model>Golf</model>
+		<modelyear>2017</modelyear>
+		<mileage>13586</mileage>
+		<fueltype>CNG</fueltype>
+		<seats>5</seats>
+		<priceperday>180</priceperday>
+		<description>The Volkswagen Golf is a compact car produced by the German automotive manufacturer Volkswagen since 1974, marketed worldwide across seven generations, in various body configurations and under various nameplates – such as the Volkswagen Rabbit in the United States and Canada (Mk1 and Mk5), and as the Volkswagen Caribe in Mexico (Mk1)</description>
+	</car>
+	<car>
+		<category>sedan</category>
+		<availability>True</availability>
+		<brand>Honda</brand>
+		<model>Civic</model>
+		<modelyear>2018</modelyear>
+		<mileage>9586</mileage>
+		<fueltype>Petrol</fueltype>
+		<seats>5</seats>
+		<priceperday>220</priceperday>
+		<description>The Honda Civic is a line of cars manufactured by Honda. Originally a subcompact, the Civic has gone through several generational changes, becoming both larger and more upscale, moving into the compact car segment.</description>
+	</car>
+	<car>
+		<category>SUV</category>
+		<availability>False</availability>
+		<brand>Chevrolet</brand>
+		<model>Captiva</model>
+		<modelyear>2018</modelyear>
+		<mileage>13012</mileage>
+		<fueltype>Petrol</fueltype>
+		<seats>7</seats>
+		<priceperday>230</priceperday>
+		<description>The Chevrolet Captiva is a compact crossover SUV that was developed by the South Korean manufacturer Daewoo, and has been sold by Chevrolet since 2006. </description>
+	</car>
+	<car>
+		<category>SUV</category>
+		<availability>False</availability>
+		<brand>Suzuki</brand>
+		<model>Gimny</model>
+		<modelyear>2018</modelyear>
+		<mileage>9586</mileage>
+		<fueltype>Petrol</fueltype>
+		<seats>7</seats>
+		<priceperday>260</priceperday>
+		<description>The Suzuki Gimny is a line of four-wheel drive off-road mini SUVs, made by Japanese automaker Suzuki since 1970. </description>
+	</car>
+	<car>
+		<category>sedan</category>
+		<availability>True</availability>
+		<brand>BMW</brand>
+		<model>320i</model>
+		<modelyear>2018</modelyear>
+		<mileage>9586</mileage>
+		<fueltype>Petrol</fueltype>
+		<seats>5</seats>
+		<priceperday>240</priceperday>
+		<description>The BMW 3 Series is a compact executive car manufactured by the German automaker BMW since May 1975. It is the successor to the 02 Series and has been produced in seven different generations.</description>
+	</car>
+	<car>
+		<category>SUV</category>
+		<availability>True</availability>
+		<brand>Jeep</brand>
+		<model>Cherokee</model>
+		<modelyear>2016</modelyear>
+		<mileage>33541</mileage>
+		<fueltype>Petrol</fueltype>
+		<seats>5</seats>
+		<priceperday>380</priceperday>
+		<description>The Jeep Cherokee is a line of American vehicles sold by Jeep under various vehicle classes.</description>
+	</car>
+	<car>
+		<category>SUV</category>
+		<availability>True</availability>
+		<brand>Mercedes</brand>
+		<model>GLC</model>
+		<modelyear>2015</modelyear>
+		<mileage>38546</mileage>
+		<fueltype>Petrol</fueltype>
+		<seats>5</seats>
+		<priceperday>280</priceperday>
+		<description>The Mercedes-Benz GLC-Class (X253/C253) is a compact luxury SUV introduced in 2015 for the 2016 model year that replaces the former Mercedes-Benz GLK-Class.</description>
+	</car>
+	<car>
+		<category>sedan</category>
+		<availability>True</availability>
+		<brand>Hyundai</brand>
+		<model>Sonata</model>
+		<modelyear>2017</modelyear>
+		<mileage>16843</mileage>
+		<fueltype>Petrol</fueltype>
+		<seats>5</seats>
+		<priceperday>120</priceperday>
+		<description>The Hyundai Sonata is a mid-size car produced by the South Korean manufacturer Hyundai since 1985. </description>
 	</car>
 </carlist>
