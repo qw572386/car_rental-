@@ -1,0 +1,28 @@
+@charset 'UTF-8';
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+header{
+    height: 60px;
+    background-color: black;
+}
+.card{
+    width: 20%;
+	min-width: 220px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.card .card-body{
+    border: 1px solid #ddd;
+}
+.card-image {
+    height: 200px;
+    background-size: cover;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: space-around;
+}
