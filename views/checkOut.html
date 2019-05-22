@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/checkOut.css">
+  <title>Car Reservation</title>
+</head>
+<body>
+  <header>
+    <b class="system-name">Car Rental Center</b>
+  </header>
+  <body>
+    <p class="page-name">Check Out</p>
+    <div class="content">
+      <h3>Customer Details and Payment</h3>
+      <h4>Please fill in you details. <i class="required">*</i> indicates required field.</h4>
+      <div class="details-box">
+        <div class="detail-item">
+          <label for="firstName">First Name<i class="required">*</i></label>
+          <input type="text" name="firstName" id="firstName" />
+        </div>
+        <div class="detail-item">
+          <label for="lastName">Last Name<i class="required">*</i></label>
+          <input type="text" name="lastName" id="lastName" />
+        </div>
+        <div class="detail-item">
+          <label for="email">Email address<i class="required">*</i></label>
+          <input type="text" name="email" id="email" />
+        </div>
+        <div class="detail-item">
+          <label for="address">Address Line 1<i class="required">*</i></label>
+          <input type="text" name="address" id="address" />
+        </div>
+        <div class="detail-item">
+          <label for="address2">Address Line 2</label>
+          <input type="text" name="address2" id="address2" />
+        </div>
+        <div class="detail-item">
+          <label for="city">City<i class="required">*</i></label>
+          <input type="text" name="city" id="city" />
+        </div>
+        <div class="detail-item">
+          <label for="state">State<i class="required">*</i></label>
+          <select name="state" id="state">
+            <option value="Australia Capital Territory">Australia Capital Territory</option>
+            <option value="New South Wales">New South Wales</option>
+            <option value="Queensland">Queensland</option>
+            <option value="Victoria Australia">Victoria Australia</option>
+            <option value="Tasmania">Tasmania</option>
+            <option value="Western Australia">Western Australia</option>
+          </select>
+        </div>
+        <div class="detail-item">
+            <label for="postCode">Post Code<i class="required">*</i></label>
+            <input type="text" name="postCode" id="postCode" />
+        </div>
+        <div class="detail-item">
+            <label for="payment">Payment Type<i class="required">*</i></label>
+            <select name="payment" id="payment">
+              <option value="VISA">VISA</option>
+              <option value="PayPal">PayPal</option>
+              <option value="PayPal">DISCOVER</option>
+            </select>
+        </div>
+      </div>
+      <p>You are required to pay $1880</p>
+    </div>
+    <div class="btns-box">
+      <button class="btn-link" id="continueSelect">Continue Selection</button>
+      <button class="btn-link">Booking</button>
+    </div>
+  </body>
+  <script src="../js/checkOut.js"></script>
+</body>
+</html>

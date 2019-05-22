@@ -1,0 +1,58 @@
+@charset 'UTF-8';
+body, html{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: #666;
+}
+header{
+  height: 60px;
+  line-height: 60px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 15px;
+}
+.system-name{
+  color: #fff;
+  font-size: 26px;
+}
+.btn-link{
+    background: #0379FE;
+    border: none;
+    height: 32px;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.page-name{
+  text-align: center;
+  font-size: 22px;
+}
+#shoppingCart{
+  width: 100%;
+}
+#shoppingCart tbody tr > td{
+  width: 15%;
+  box-sizing: border-box;
+  text-align: center;
+}
+#shoppingCart tbody tr > td:first-child{
+  width: 30%;
+}
+#shoppingCart tbody tr > td:first-child img{
+  width: 120px;
+  height: 100px;
+}
+#shoppingCart tbody tr > td:nth-child(1){
+  width: 25%;
+}
+.btns-box{
+  text-align: right;
+  padding: 20px 10px 10px;
+}
+.rentalDays{
+  width: 80px;
+}
