@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <carlist>
 	<car>
+		<carid>10001</carid>
 		<category>sedan</category>
 		<availability>True</availability>
 		<brand>Toyota</brand>
@@ -13,6 +14,7 @@
 		<description>The Toyota Camry is an automobile sold internationally by the Japanese manufacturer Toyota since 1982, spanning multiple generations.</description>
 	</car>
 	<car>
+		<carid>10002</carid>
 		<category>SUV</category>
 		<availability>True</availability>
 		<brand>Nissan</brand>
@@ -25,6 +27,7 @@
 		<description>The Nissan X-Trail is a compact crossover SUV produced by the Japanese automaker Nissan since 2000. In third generation, it is a 3-row (which means 7-seater) SUV.</description>
 	</car>
 	<car>
+		<carid>10003</carid>
 		<category>sedan</category>
 		<availability>False</availability>
 		<brand>Volkswagen</brand>
@@ -37,6 +40,7 @@
 		<description>The Volkswagen Golf is a compact car produced by the German automotive manufacturer Volkswagen since 1974, marketed worldwide across seven generations, in various body configurations and under various nameplates – such as the Volkswagen Rabbit in the United States and Canada (Mk1 and Mk5), and as the Volkswagen Caribe in Mexico (Mk1)</description>
 	</car>
 	<car>
+		<carid>10004</carid>
 		<category>sedan</category>
 		<availability>True</availability>
 		<brand>Honda</brand>
@@ -49,6 +53,7 @@
 		<description>The Honda Civic is a line of cars manufactured by Honda. Originally a subcompact, the Civic has gone through several generational changes, becoming both larger and more upscale, moving into the compact car segment.</description>
 	</car>
 	<car>
+		<carid>10005</carid>
 		<category>SUV</category>
 		<availability>False</availability>
 		<brand>Chevrolet</brand>
@@ -61,6 +66,7 @@
 		<description>The Chevrolet Captiva is a compact crossover SUV that was developed by the South Korean manufacturer Daewoo, and has been sold by Chevrolet since 2006. </description>
 	</car>
 	<car>
+		<carid>10006</carid>
 		<category>SUV</category>
 		<availability>False</availability>
 		<brand>Suzuki</brand>
@@ -73,6 +79,7 @@
 		<description>The Suzuki Gimny is a line of four-wheel drive off-road mini SUVs, made by Japanese automaker Suzuki since 1970. </description>
 	</car>
 	<car>
+		<carid>10007</carid>
 		<category>sedan</category>
 		<availability>True</availability>
 		<brand>BMW</brand>
@@ -85,6 +92,7 @@
 		<description>The BMW 3 Series is a compact executive car manufactured by the German automaker BMW since May 1975. It is the successor to the 02 Series and has been produced in seven different generations.</description>
 	</car>
 	<car>
+		<carid>10008</carid>
 		<category>SUV</category>
 		<availability>True</availability>
 		<brand>Jeep</brand>
@@ -97,6 +105,7 @@
 		<description>The Jeep Cherokee is a line of American vehicles sold by Jeep under various vehicle classes.</description>
 	</car>
 	<car>
+		<carid>10009</carid>
 		<category>SUV</category>
 		<availability>True</availability>
 		<brand>Mercedes</brand>
@@ -109,6 +118,7 @@
 		<description>The Mercedes-Benz GLC-Class (X253/C253) is a compact luxury SUV introduced in 2015 for the 2016 model year that replaces the former Mercedes-Benz GLK-Class.</description>
 	</car>
 	<car>
+		<carid>10010</carid>
 		<category>sedan</category>
 		<availability>True</availability>
 		<brand>Hyundai</brand>
