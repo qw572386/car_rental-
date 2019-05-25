@@ -17,21 +17,21 @@ module.exports =  (router) => {
       total: ctx.request.body.total
     };
     let details = '';
-    ko.cars.map(item => {
+    Array.isArray(ko.cars) && ko.cars.map(item => {
       details += `
         <div style="margin: 20px 0px;">
-          <div>Model: ${item.model}</div>
-          <div>mileage: ${item.mileage}</div>
-          <div>fuel_type: ${item.fueltype}</div>
-          <div>seats: ${item.seats}</div>
-          <div>price_per_day: ${item.priceperday}</div>
-          <div>ren_days: ${item.rendays}</div>
-          <div>description: ${item.description}</div>
+          <div>Model: ${item.model || ''}</div>
+          <div>mileage: ${item.mileage || '0'}kms</div>
+          <div>fuel_type: ${item.fueltype || ''}</div>
+          <div>seats: ${item.seats || ''}</div>
+          <div>price_per_day: ${item.priceperday || ''}</div>
+          <div>ren_days: ${item.days || ''}</div>
+          <div>description: ${item.description || ''}</div>
         </div>
       `;
     })
     const html = `
-      <p>Thanks for renting cars from Hertz-UTS, the total cost is ${ko.total}</p>
+      <p>Thanks for renting cars from Hertz-UTS, the total cost is $${ko.total}</p>
       <p>Details are as follows:</p>
       ${details}
     `;

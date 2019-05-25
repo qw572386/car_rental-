@@ -67,6 +67,15 @@ window.onload = function() {
 }
 // add to cart
 function addToCart(carid) {
+  const carReservation = JSON.parse(window.sessionStorage.getItem('carReservation'));
+  if (carReservation && carReservation.length) {
+    for(let i = 0; i < carReservation.length; i++) {
+      if (carid == carReservation[i].carid) {
+        alert('it already exist in the cart');
+        return;
+      }
+    }
+  }
   const xHttp = new XMLHttpRequest();
   xHttp.onreadystatechange = function() {
     if (xHttp.readyState === 4 && xHttp.status === 200) {
@@ -84,12 +93,12 @@ function addToCart(carid) {
         return;
       }
       alert('Add to the cart successfully.');
-      const carReservation = JSON.parse(window.sessionStorage.getItem('carReservation'));
+      
       if (!carReservation) {
-        window.sessionStorage.setItem('carReservation', JSON.stringify([carid]));
+        window.sessionStorage.setItem('carReservation', JSON.stringify([{ carid: carid, days: 1 }]));
         return;
       }
-      carReservation.push(carid);
+      carReservation.push({ carid: carid, days: 1 });
       window.sessionStorage.setItem('carReservation', JSON.stringify(carReservation));
     }
   }
